@@ -1,0 +1,73 @@
+@import "../helpers/variables";
+
+
+#contact{
+	background-image: url("../images/computer.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: color;
+	background-color: rgba(0,0,0,0.6);
+	height: 400px;
+	.text{
+		margin-top: 8%;
+	}
+	.titulo-red{
+		background-color: #FF7572;
+		width: 85%;
+		padding: 2%;
+		color: $color3;
+		font-size: 70px;
+		font-weight: 600;
+	}
+	.txt-white{
+		color: $color3;
+		padding: 2%;
+		p{
+			margin-top: 5%;
+			font-weight: 300;
+		}
+	}
+}
+#form{
+	margin-top: $top5;
+	.top{
+		margin-top: 7%;
+	}
+	input, textarea{
+		background-color: $color;
+		border: none !important;
+		width: $max;
+		padding: 4%;
+		font-size: 13px;
+	}
+	.form{
+		padding: 2%;
+	}
+	button{
+		margin-top: 5%;
+		background-color: #909295;
+		width: 90px;
+		color: white;
+		border: none;
+		padding: 2%;
+		float: right;
+	}
+}
+@media screen and (max-width: 768px){
+	#contact{
+		background-image: url("../images/computer.png");
+		background-repeat: no-repeat;
+		
+		background-blend-mode: color;
+		background-color: rgba(0,0,0,0.6);
+		height: 400px;
+	.titulo-red{
+		background-color: #FF7572;
+		width: 85%;
+		padding: 2%;
+		color: $color3;
+		font-size: 45px;
+		font-weight: 600;
+	}
+	}
+}

@@ -1,0 +1,78 @@
+@import "../helpers/variables";
+
+#default{
+	.navbar-default{
+		background-color: $color;
+	}
+	.fa-angle-down, .fa-usd, .fa-user, .flag{
+		padding: 5px;
+	}
+}
+#logo{
+	margin-top: $top;
+	.navegador{
+		color: black;
+		&:hover{
+			background-color: #cd4242;
+			color: $color3;
+		};
+	}
+	.float{
+		float: $float;
+	}
+	.top{
+		margin-top: 2%;
+	}
+	img{
+		max-width: $max;
+	}
+	.media{
+		color: $color2;
+	}
+	#icono {
+	    position: relative;
+	    z-index: 1;
+	    left: -25px;
+	    top: 1px;
+	    color: #dddddd;
+	    cursor:pointer;
+	    width: 0;
+	}
+	input{
+		width: 80%;
+		padding: 2%;
+		color: #dddddd;
+		border: 1px solid #dddddd;
+	}
+}
+#header{
+	margin-top: $top;
+	li{
+		font-weight: 700;
+		font-size: 15px;
+	}
+	.navegador{
+		color: black;
+		&:hover{
+			background-color: $color4;
+			color: $color3;
+		};
+	}
+	.myCart{
+		.producto{
+			width: 250%;
+			height: 300px;
+		}
+		.red{
+			color: $color4;
+			font-size: 16px;
+			display: inline-block;
+			margin-left: 30px;
+		}
+	}
+}
+@media screen and (max-width: 768px){
+	#logo{
+		margin-left: 20%;
+	}
+}

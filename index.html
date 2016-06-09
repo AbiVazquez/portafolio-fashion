@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="css/main.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <!-- DEFAULT -->
+    <section id="default">
+      <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-default">
+              <div class="container">
+                <div class="col-md-6 col-xs-6">
+                  <p class="navbar-brand" href="#">Default Welcome Msg!</p>
+                </div>
+                <div class="col-md-6 col-xs-6">
+                  <ul class="nav navbar-nav navbar-right">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img class="flag" src="images/flag1.png"> Languaje<span class="fa fa-angle-down"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Spanish</a></li>
+                      <li><a href="#">French</a></li>
+                      <li><a href="#">Russian</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="fa fa-usd"></span>Currency<span class="fa fa-angle-down"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">MXN</a></li>
+                      <li><a href="#">Franco</a></li>
+                      <li><a href="#">Rublo</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="fa fa-user"></span>My Account<span class="fa fa-angle-down"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Log in</a></li>
+                      <li><a href="#">Add account</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                </div>
+              </div>
+            </nav>
+        </div>
+      </div>
+    </section> 
+  <!-- LOGO DE LA PAGINA -->
+    <section id="logo">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-xs-12 top">
+            <div class="media">
+              <div class="pull-left">
+                <span class="fa fa-clock-o fa-4x"></span>
+              </div>
+              <div class="media-body">
+                <h3 class="media-heading">OPENING TIME</h3>
+                <p>9:00 AM - 10:00 PM</p>
+              </div>
+            </div>  
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <img class="img-responsive" src="images/logo.png">
+          </div>
+          <div class="col-md-4 col-xs-12 top">
+            <input type="text" placeholder="Search"/>
+            <i id="icono" class="fa fa-search"></i>
+          </div>
+        </div>
+      </div>
+    </section>  
+  <!--MENU-->
+    <header id="header">
+      <nav id="menu" class="navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+           </button>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li><a class="navegador" href="index.html">HOME</a></li>
+                <li><a class="navegador" href="contact.html">CONTACT US</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right italic">
+                <li>
+                  <!-- Dropdown -->
+                  <div class="btn-group myCart">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="fa fa-shopping-cart"></span> My Cart
+                      <p>2 item(s)-$244.00</p>
+                    </button>
+                    <!-- <ul class="dropdown-menu producto">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li>Sub-Total <p class="red">$700</p></li>
+                      <li>Eco Tax (-2.00) <p class="red">$7.00</p></li>
+                      <li>VAT (20%) <p class="red">$40.00</p></li>
+                    </ul> -->
+                  </div>
+                </li>
+              </ul>
+          </div>
+         </div>
+      </nav>
+    </header>
+  <!-- CARUSEL -->
+    <section id="carusel">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img class="slider" src="images/slider1.jpg">
+            <div class="carousel-caption">
+              <div class="borde">
+                <h1>AUTUMN/WINTER LOOKBOOK</h1>
+              </div>
+              <p class="txt">- 2016 COLLECTION -</p>
+            </div>
+          </div>
+          <div class="item">
+            <img class="slider" src="images/slider2.jpg">
+            <div class="carousel-caption">
+              <div class="borde">
+                <h1>SHOP ONLINE</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- IMAGENES -->
+    <section id="images">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-xs-12">
+            <a href="#"><img src="images/banner1.jpg"></a>
+          </div>
+          <div class="col-md-7 col-xs-12">
+            <a href="#"><img src="images/banner2.jpg"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- LATES -->
+    <section id="lates">
+      <div class="container">
+        <div class="row menu">
+          <div class="col-md-3 hidden-xs">
+            <hr class="doble">
+          </div>
+          <div class="col-md-6 col-xs-12">
+            <ul>
+              <li><a href="#"><span class="fa fa-angle-left"></span></a></li>
+              <li><a href="#">LATEST</a></li>
+              <li><a href="#">BESTSELLER</a></li>
+              <li><a href="#">SALE</a></li>
+              <li><a href="#"><span class="fa fa-angle-right"></span></a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 hidden-xs">
+            <hr class="doble">
+          </div>
+        </div>
+        <div class="row cuadro">
+          <div class="col-md-3 col-xs-6">
+            <div class="borde-gray">
+              <a href="#"><img src="images/a1.jpg"></a> 
+              <button class="btn-red">NEW</button>
+              <div class="text-center">
+                <p>Deliver Wide</p>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-o"></span>
+                <span class="fa fa-star-o"></span>
+                <p class="red">$218.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <div class="borde-gray">
+              <a href="#"><img src="images/b1.jpg"></a> 
+              <button class="btn-red">NEW</button>
+              <button class="btn-black">SALE</button>
+              <div class="text-center">
+                <p>Deliver Wide</p>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-o"></span>
+                <span class="fa fa-star-o"></span>
+                <p class="red"><span class="precio">$242.00</span>$218.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <div class="borde-gray">
+              <a href="#"><img src="images/c1.jpg"></a> 
+              <button class="btn-black">SALE</button>
+              <div class="text-center">
+                <p>Deliver Wide</p>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-o"></span>
+                <span class="fa fa-star-o"></span>
+                <p class="red"><span class="precio">$242.00</span>$218.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <div class="borde-gray">
+              <a href="#"><img src="images/d1.jpg"></a> 
+              <button class="btn-red">NEW</button>
+              <div class="text-center">
+                <p>Deliver Wide</p>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-o"></span>
+                <span class="fa fa-star-o"></span>
+                <p class="red">$218.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- CLIENTES -->
+    <section id="clientes">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-xs-2">
+            <img src="images/client1.jpg">
+          </div>
+          <div class="col-md-2 col-xs-2">
+            <img src="images/client2.jpg">
+          </div>
+          <div class="col-md-2 col-xs-2">
+            <img src="images/client3.jpg">
+          </div>
+          <div class="col-md-2 col-xs-2">
+            <img src="images/client4.jpg">
+          </div>
+          <div class="col-md-2 col-xs-2">
+            <img src="images/client5.jpg">
+          </div>
+          <div class="col-md-2 col-xs-2">
+            <img src="images/client6.jpg">
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- CLOTHING -->
+    <section id="clothing">
+      <div class="container">
+        <div class="row menu">
+          <div class="col-md-3 hidden-xs">
+            <hr class="doble">
+          </div>
+          <div class="col-md-6 col-xs-12">
+            <ul>
+              <li><a href="#"><span class="fa fa-angle-left"></span></a></li>
+              <li><a href="#">CLOTHING</a></li>
+              <li><a href="#">EQUIPMENTS</a></li>
+              <li><a href="#">JEWELLERY</a></li>
+              <li><a href="#"><span class="fa fa-angle-right"></span></a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 hidden-xs">
+            <hr class="doble">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-xs-12 producto">
+            <button class="btn-black">SALE</button>
+            <button class="btn-red">NEW</button>
+            <img class="borde-gray" src="images/a2.jpg">
+            <div class="float txt-left1">
+              <p>Deliver Wide</p>
+              <p class="red"><span class="precio">$242.00</span>$218.00</p>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star-o"></span>
+              <span class="fa fa-star-o"></span>
+              <div>
+              <button><span class="fa fa-shopping-cart"></span>Add to Cart</button>
+            </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12 producto">
+            <button class="btn-red">NEW</button>
+            <img class="borde-gray" src="images/d2.jpg">
+            <div class="float txt-left">
+              <p>Deliver Wide</p>
+              <p class="red">$218.00</p>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star-o"></span>
+              <span class="fa fa-star-o"></span>
+              <div>
+              <button><span class="fa fa-shopping-cart"></span>Add to Cart</button>
+            </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12 producto">
+            <img class="borde-gray" src="images/g2.jpg">
+            <div class="float txt-left">
+              <p>Deliver Wide</p>
+              <p class="red">$218.00</p>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star-o"></span>
+              <span class="fa fa-star-o"></span>
+              <div>
+              <button><span class="fa fa-shopping-cart"></span>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-xs-12 producto">
+              <button class="btn-red">NEW</button>
+              <img class="borde-gray" src="images/a2.jpg">
+              <div class="float txt-left">
+                <p>Deliver Wide</p>
+                <p class="red">$218.00</p>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-o"></span>
+                <span class="fa fa-star-o"></span>
+                <div>
+                <button><span class="fa fa-shopping-cart"></span>Add to Cart</button>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-xs-12 producto">
+              <button class="btn-black">SALE</button>
+              <img class="borde-gray" src="images/d2.jpg">
+              <div class="float txt-left1">
+                <p>Deliver Wide</p>
+                <p class="red"><span class="precio">$242.00</span>$218.00</p>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-o"></span>
+                <span class="fa fa-star-o"></span>
+                <div>
+                <button><span class="fa fa-shopping-cart"></span>Add to Cart</button>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-xs-12 producto">
+              <button class="btn-red">NEW</button>
+              <img class="borde-gray" src="images/g2.jpg">
+              <div class="float txt-left">
+                <p>Deliver Wide</p>
+                <p class="red">$218.00</p>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-o"></span>
+                <span class="fa fa-star-o"></span>
+                <div>
+                <button><span class="fa fa-shopping-cart"></span>Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- BLOG -->
+    <section id="blog">
+      <div class="container">
+        <div class="row menu">
+          <div class="col-md-5 hidden-xs">
+            <hr class="doble">
+          </div>
+          <div class="col-md-2 col-xs-12">
+            <ul>
+              <li><a href="#"><span class="fa fa-angle-left"></span></a></li>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#"><span class="fa fa-angle-right"></span></a></li>
+            </ul>
+          </div>
+          <div class="col-md-5 hidden-xs">
+            <hr class="doble">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-xs-6">
+            <img src="images/blog2.jpg">
+            <h5>THE SAME HEADING TITLE</h5>
+            <p class="txt-size">27/11/2015</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do...</p>
+            <p class="txt-red">Read more...</p>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <img src="images/blog1.jpg">
+            <h5>THE SAME HEADING TITLE</h5>
+            <p class="">27/11/2015</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do...</p>
+            <p class="txt-red">Read more...</p>
+          </div>
+          <div class="col-md-3 col-xs-6"> 
+            <img src="images/blog2.jpg">
+            <h5>THE SAME HEADING TITLE</h5>
+            <p class="txt-size">27/11/2015</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do...</p>
+            <p class="txt-red">Read more...</p>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <img src="images/blog3.jpg">
+            <h5>THE SAME HEADING TITLE</h5>
+            <p class="txt-size">27/11/2015</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do...</p>
+            <p class="txt-red">Read more...</p>
+          </div>
+        </div>
+        <div class="row compras">
+        <div class="col-md-4 col-xs-12">
+          <div class="cuadro-gray">
+            <span class="fa fa-phone-square fa-3x"></span>
+            <div class="float">
+              <h4>ORDER ONLINE NOW</h4>
+              <p>Call Us: (0123) 456 789</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <div class="cuadro-gray">
+            <span class="fa fa-plane fa-3x"></span>
+            <div class="float1">
+              <h4>FREE WORLDWIDE SHIPPING</h4>
+              <p>On Order Ove $100</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <div class="cuadro-gray">
+            <span class="fa fa-money fa-3x"></span>
+            <div class="float1">
+              <h4>30 DAYS MONEY BACK 100%</h4>
+              <p>Satisfaction Guarantee</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+  <!-- FOOTER -->
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-xs-12">
+            <h5>ACCESSORIES</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <div class="top">
+              <div class="cuadro" href="#"><span class="fa fa-facebook"></span></div>
+              <div class="cuadro" href="#"><span class="fa fa-twitter"></span></div>
+              <div class="cuadro" href="#"><span class="fa fa-rss"></span></div>
+              <div class="cuadro" href="#"><span class="fa fa-skype"></span></div>
+              <div class="cuadro" href="#"><span class="fa fa-dribbble "></span></div>
+            </div>
+          </div>
+          <div class="col-md-2 col-xs-4">
+            <h5>MY ACCOUNT</h5>
+            <ul>
+              <li><a><i class="fa fa-caret-right"></i>My Account</a></li>
+              <li><a><i class="fa fa-caret-right"></i>Order History</a></li>
+              <li><a><i class="fa fa-caret-right"></i>Wish List</a></li>
+              <li><a><i class="fa fa-caret-right"></i>Newsletter</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-xs-4">
+            <h5>INFORMATION</h5>
+            <ul>
+              <li><a><i class="fa fa-caret-right"></i>About US</a></li>
+              <li><a><i class="fa fa-caret-right"></i>Delivery Information</a></li>
+              <li><a><i class="fa fa-caret-right"></i>Privacy Policy</a></li>
+              <li><a><i class="fa fa-caret-right"></i>Terms & Conditions</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-xs-4">
+            <h5>EXTRAS</h5>
+            <ul>
+              <li><a><i class="fa fa-caret-right"></i>Brandes</a></li>
+              <li><a><i class="fa fa-caret-right"></i>Gift Vouchers</a></li>
+              <li><a><i class="fa fa-caret-right"></i>Affiliates</a></li>
+              <li><a><i class="fa fa-caret-right"></i>Specials</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-xs-12">
+            <h5>ABOUT US</h5>
+            <div class="media">
+              <div class="pull-left">
+                <span class="fa fa-map-marker"></span>
+              </div>
+              <div class="media-body">
+                <p>8901 Marmora Road, Glasgow DO4 89 GR, New York</p
+                >
+              </div>
+            </div>  
+            <div class="media">
+              <div class="pull-left">
+                <span class="fa fa-phone circulo"></span>
+              </div>
+              <div class="media-body">
+                <p>(0123)456789</p>
+                <p>(0987)654321</p>
+              </div>
+            </div>  
+            <div class="media">
+              <div class="pull-left">
+                <span class="fa fa-envelope"></span>
+              </div>
+              <div class="media-body">
+                <p>admin@bootexperts.com</p>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </footer>
+    <footer id="copy">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Copyright &copy; 2015</p>
+            <p class="txt-red">BootExperts.</p>
+            <p>All rights reserved</p>
+            <img src="images/payment.png">
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+  <script src="js/jquery-min.js"></script>  
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

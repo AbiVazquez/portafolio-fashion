@@ -1,0 +1,175 @@
+@import "helpers/variables";
+@import "layout/header";
+@import "layout/footer";
+@import "helpers/mixin";
+@import "layout/contacto";
+
+*{
+	font-family: Lato;
+}
+#carusel{
+	.borde{
+		margin-top: -30%;
+		margin-left: 10%;
+		border: 3px solid $color3;
+		width: 80%;
+		opacity: 0.7;
+		&:hover{
+			border: 3px solid $color2;
+		};
+	}
+	.txt{
+		padding: 5%;
+		letter-spacing: 0.3em;
+		font-size: 20px;
+		opacity: 0.7;
+	}
+}
+#images{
+	margin-top: $top5;
+	img{
+		max-width: $max;
+	}
+}
+#lates{
+	margin-top: $top;
+	.menu{
+		@include menu;
+	}
+	img{
+		max-width: $max;	
+	}
+	.cuadro{
+		@include cuadro;
+		margin-top: $top;
+	}
+
+}
+#clientes{
+	margin-top: $top5;
+	background-image: url("../images/client-bg.jpg");
+	background-position: left;
+	img{
+		max-width: $max;
+	}
+	.col-md-2, .col-xs-2{
+		margin-top: 8%;
+		margin-bottom: 7%;
+	}
+}
+#clothing{
+	margin-top: $top;
+	.menu{
+		@include menu;
+	}
+	li{
+		padding: 3% !important;
+	}
+	.producto{
+		margin-top: $top;
+		@include cuadro;
+		img{
+		max-width: 50%;
+		}
+		.float{
+			float: right;
+		}
+		.txt-left{
+			margin-right: 11%;
+		}
+		.txt-left1{
+			margin-right: 8%;
+		}
+		button{
+			margin-top: 5%;
+			background-color: #3B3B3B;
+			color: $color3;
+			border: none;
+			padding: 3%;
+			width: 110px;
+			font-size: 12px;
+			span{
+				padding: 5%;
+			}
+		}
+		.btn-black{
+		background-color: black;
+		border: none;
+		color: $color3;
+		padding: 1%;
+		width: 50px;
+		position: absolute;
+		top: -4%;
+		font-size: 12px;
+		
+	}
+	}
+}
+#blog{
+	margin-top: $top;
+	.menu{
+		@include menu;
+	}
+	img{
+		max-width: $max;	
+	}
+	h5{
+		font-weight: 800;
+
+	}
+	.col-md-3, .col-xs-6{
+		margin-top: $top;
+	}
+	.txt-size, .txt-red{
+		font-size: 11px;
+	}
+	.txt-red{
+		color: $color4;
+	}
+	.compras{
+		margin-top: $top5;
+		.cuadro-gray{
+			border: 1px solid #dddddd;
+			height: 70px;
+			padding: 1%;
+		}
+		.float{
+			float: right;
+			margin-right: 20%;
+		}
+		.float1{
+			float: right;
+			margin-right: 5%;
+		}
+		.fa-phone-square, .fa-plane, .fa-money{
+			padding: 5%;
+			padding-top: 2px;
+			border-right:1px solid #dddddd;
+			height: 40px;
+			margin-top: 3%;
+			color: #828282;
+		}
+	}
+}
+@media screen and (max-width: 768px){
+	#carusel{
+	.borde{
+		margin-left: 10%;
+		border: 3px solid $color3;
+		width: 80%;
+		opacity: 0.7;
+		&:hover{
+			border: 3px solid $color2;
+		};
+	}
+	h1{
+		font-size: 20px !important;
+	}
+	.txt{
+		margin-top: -5%;
+		letter-spacing: 0.3em;
+		font-size: 15px;
+		opacity: 0.7;
+	}
+}
+}
